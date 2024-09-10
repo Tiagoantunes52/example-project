@@ -5,7 +5,8 @@ description = "This is a template repository for Python projects that use uv for
 authors = [{ name = "Tiago Antunes", email = "tiagoantunes52@gmail.com" }]
 readme = "README.md"
 keywords = ['python']
-requires-python = ">=3.8,<4.0"
+requires-python = ">=3.10,<4.0"
+dependencies = []
 
 [project.urls]
 Homepage = "https://tfantunes.github.io/example-project/"

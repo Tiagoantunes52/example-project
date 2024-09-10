@@ -1,6 +1,6 @@
 site_name: example-project
-repo_url: https://github.com/tfantunes/example-project
-site_url: https://tfantunes.github.io/example-project
+repo_url: https://github.com/Tiagoantunes52/example-project
+site_url: https://Tiagoantunes52.github.io/example-project
 site_description: This is a template repository for Python projects that use uv for their dependency management.
 site_author: Tiago Antunes
 edit_uri: edit/main/docs/
@@ -43,7 +43,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/tfantunes/example-project
+      link: https://github.com/Tiagoantunes52/example-project
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/example-project
 

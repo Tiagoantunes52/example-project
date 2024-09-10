@@ -1,15 +1,15 @@
 # example-project
 
-[![Release](https://img.shields.io/github/v/release/tfantunes/example-project)](https://img.shields.io/github/v/release/tfantunes/example-project)
-[![Build status](https://img.shields.io/github/actions/workflow/status/tfantunes/example-project/main.yml?branch=main)](https://github.com/tfantunes/example-project/actions/workflows/main.yml?query=branch%3Amain)
-[![codecov](https://codecov.io/gh/tfantunes/example-project/branch/main/graph/badge.svg)](https://codecov.io/gh/tfantunes/example-project)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/tfantunes/example-project)](https://img.shields.io/github/commit-activity/m/tfantunes/example-project)
-[![License](https://img.shields.io/github/license/tfantunes/example-project)](https://img.shields.io/github/license/tfantunes/example-project)
+[![Release](https://img.shields.io/github/v/release/Tiagoantunes52/example-project)](https://img.shields.io/github/v/release/Tiagoantunes52/example-project)
+[![Build status](https://img.shields.io/github/actions/workflow/status/Tiagoantunes52/example-project/main.yml?branch=main)](https://github.com/Tiagoantunes52/example-project/actions/workflows/main.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/Tiagoantunes52/example-project/branch/main/graph/badge.svg)](https://codecov.io/gh/Tiagoantunes52/example-project)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/Tiagoantunes52/example-project)](https://img.shields.io/github/commit-activity/m/Tiagoantunes52/example-project)
+[![License](https://img.shields.io/github/license/Tiagoantunes52/example-project)](https://img.shields.io/github/license/Tiagoantunes52/example-project)
 
 This is a template repository for Python projects that use uv for their dependency management.
 
-- **Github repository**: <https://github.com/tfantunes/example-project/>
-- **Documentation** <https://tfantunes.github.io/example-project/>
+- **Github repository**: <https://github.com/Tiagoantunes52/example-project>
+- **Documentation** <https://tiagoantunes52.github.io/example-project/>
 
 ## Getting started with your project
 
@@ -38,6 +38,18 @@ git push -u origin main
 
 ### 2. Setting Up The Development Environment
 
+Choosing python version to use
+
+```bash
+uv python install 3.xx.xx
+```
+
+Creating a virtual environment with a specific python version
+
+```bash
+uv venv --python 3.xx.xx
+```
+
 Install the environment and the pre-commit hooks with
 
 ```bash
@@ -45,6 +57,26 @@ make install
 ```
 
 This will also generate your `uv.lock` file
+
+Adding any required package
+
+```bash
+uv add <package-name>
+```
+
+Or removing any package
+
+```bash
+uv remove <package-name>
+```
+
+The `uv.lock` file can be forcefully updated
+
+```bash
+uv lock
+```
+
+It can also be exported to other formats like the `requirements.txt`
 
 ### 3. Running the pre-commit hooks
 
