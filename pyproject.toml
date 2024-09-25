@@ -6,7 +6,9 @@ authors = [{ name = "Tiago Antunes", email = "tiagoantunes52@gmail.com" }]
 readme = "README.md"
 keywords = ['python']
 requires-python = ">=3.10,<4.0"
-dependencies = []
+dependencies = [
+    "python-fasthtml>=0.6.8",
+]
 
 [project.urls]
 Homepage = "https://tfantunes.github.io/example-project/"

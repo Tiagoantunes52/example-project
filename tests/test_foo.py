@@ -1,4 +1,4 @@
-from example_project.foo import foo
+from example_project.main import foo
 
 
 def test_foo():
